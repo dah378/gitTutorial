@@ -17,7 +17,7 @@ Below are typical steps for using github.
 3. Change directory to cloned repository
 4. Download recent changes to github repository using 'get pull'
 5. Make your changes
-6. Specify changes to commit using 'git add "filename or -A or "'
+6. Specify changes to commit using 'git add "filename or -A for all"'
 7. Commit changes using 'git commit -m "message describing changes"'
 8. Send changes to github repository using 'get push'
 
