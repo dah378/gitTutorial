@@ -1,0 +1,23 @@
+These are some basic github commands. You can view the git commands by typing 'git' into the command prompt.
+
+git clone - downloads the specified repository from github using clone url.
+git status - shows differences between local repository and github repository.
+git add - adds changes or files by name. These are changes to be committed.
+git commit - commit changes to your local repository
+git push - synchronizes github repository with local repository (send changes to github repository)
+git pull - synchronizes local repository with github repository (get changes from github repository)
+
+Below are typical steps for using github.
+
+##If downloading new repository start from step 1. If you have a clone already, skip to step 3.##
+1. Open the command prompt and navigate to the desired directory.
+2. Clone the github repository to directory using 'git clone "clone url from github"'.
+
+##Start here if you have a local version of the repository##
+3. Change directory to cloned repository
+4. Download recent changes to github repository using 'get pull'
+5. Make your changes
+6. Specify changes to commit using 'git add "filename or -A or "'
+7. Commit changes using 'git commit -m "message describing changes"'
+8. Send changes to github repository using 'get push'
+
